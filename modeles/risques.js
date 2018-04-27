@@ -16,6 +16,7 @@ const RisqueShema = new Schema({
     Terme_fichier : String       
 }); 
 
+
 const risqueModel = mongoose.model('risque', RisqueShema);
 
 module.exports = risqueModel;
